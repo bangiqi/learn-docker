@@ -51,4 +51,4 @@ result :
 
 ## Referensi
 
-- (https://severalnines.com/blog/mysql-docker-containers-understanding-basics) https://severalnines.com/blog/mysql-docker-containers-understanding-basics
+- [https://severalnines.com/blog/mysql-docker-containers-understanding-basics] (https://severalnines.com/blog/mysql-docker-containers-understanding-basics)
