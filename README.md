@@ -37,7 +37,7 @@ ip addres <code>172.19.0.2</code> yang digunakan sebagai hostname didapatkan den
 ``` bash
 sudo docker inspect [id_container] | grep IPAddress
 ```
-maka akan tampil data berupa json. s
+maka akan tampil data berupa json.
 cara untuk melihat container dengan menggunakan perintah
 
 ``` bash
@@ -46,9 +46,15 @@ sudo docker ps
 
 result : 
 
+## 500 Internal Server Error pada laravel
 
+problem solving
 
+``` bash
+sudo chmod 755 -R [laravel_project]
+chmod -R o+w laravel_blog/storage
+```
 
 ## Referensi
-
-- [https://severalnines.com/blog/mysql-docker-containers-understanding-basics] (https://severalnines.com/blog/mysql-docker-containers-understanding-basics)
+- [Mysql docker containers understanding](http://stackoverflow.com/questions/31543175/getting-a-500-internal-server-error-on-laravel-5-ubuntu-14-04) 
+- [500 Internal Server Error (stackoverflow)](http://stackoverflow.com/questions/31543175/getting-a-500-internal-server-error-on-laravel-5-ubuntu-14-04) 
